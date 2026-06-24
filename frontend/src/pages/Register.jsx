@@ -72,6 +72,7 @@ function Register() {
               <input
                 type="text"
                 placeholder="Enter Full Name"
+                autoComplete="name"
                 value={form.name}
                 onChange={(e) =>
                   setForm({
@@ -91,6 +92,7 @@ function Register() {
               <input
                 type="email"
                 placeholder="Enter Email"
+                 autoComplete="email"
                 value={form.email}
                 onChange={(e) =>
                   setForm({
@@ -110,6 +112,7 @@ function Register() {
               <input
                 type="password"
                 placeholder="Enter Password"
+                autoComplete="new-password"
                 value={form.password}
                 onChange={(e) =>
                   setForm({

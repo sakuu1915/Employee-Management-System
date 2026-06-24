@@ -78,6 +78,7 @@ function Login() {
               <input
                 type="email"
                 placeholder="Enter Email"
+                autoComplete="email"
                 className="w-full border border-gray-300 rounded-xl pl-10 p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 onChange={(e) =>
                   setForm({
@@ -96,6 +97,7 @@ function Login() {
               <input
                 type="password"
                 placeholder="Enter Password"
+                autoComplete="current-password"
                 className="w-full border border-gray-300 rounded-xl pl-10 p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 onChange={(e) =>
                   setForm({
